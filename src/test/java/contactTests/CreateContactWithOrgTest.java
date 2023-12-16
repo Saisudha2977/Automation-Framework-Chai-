@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericUtilities.BaseClass;
@@ -69,33 +70,14 @@ public class CreateContactWithOrgTest extends BaseClass {
 		String contactHeader = cip.getContactHeader();
 		Assert.assertTrue(contactHeader.contains(LASTNAME));
 		System.out.println(contactHeader);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
-
+	
+	// this is created by me for practice purpose later i have to delete this demoTest() method...
+	@Test
+	public void demoTest()
+	{
+		Reporter.log("sample method for Build creation job..");
+	}
 }
+
+
