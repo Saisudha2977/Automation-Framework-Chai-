@@ -88,6 +88,10 @@ public class CreateMultipleContacts {
 		// Step 8: Logout
 		hp.logoutOfApp(driver);
 
+		
+		 System.out.println("Testing Poll SCM Scheduling...");  
+		 
+		 
 		// Step 9: Close the browser
 		driver.quit();
 	}
