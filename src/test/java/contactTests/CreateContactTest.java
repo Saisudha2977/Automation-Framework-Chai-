@@ -52,7 +52,7 @@ public class CreateContactTest extends BaseClass {
 		Assert.assertTrue(contactheader.contains(LASTNAME));
 		System.out.println(contactheader);
 	
-
+        System.out.println("Testing Poll SCM Scheduling...");
 	}
 	
 	@Test
