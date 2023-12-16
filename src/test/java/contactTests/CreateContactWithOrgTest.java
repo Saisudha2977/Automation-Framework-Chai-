@@ -52,7 +52,7 @@ public class CreateContactWithOrgTest extends BaseClass {
 		String orgHeader = oip.getOrganizarionHeader();
 		Assert.assertTrue(orgHeader.contains(ORGNAME));
 		System.out.println(orgHeader);
-		System.out.println("Organization created");
+		System.out.println("Organization created..........");
 		
 		//Navigate to contacts
 		hp.clickOnContactsLnk();
