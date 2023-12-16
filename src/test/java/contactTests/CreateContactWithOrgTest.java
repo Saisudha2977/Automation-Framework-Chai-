@@ -76,7 +76,7 @@ public class CreateContactWithOrgTest extends BaseClass {
 	@Test
 	public void demoTest()
 	{
-		Reporter.log("sample method for Build creation job..");
+		System.out.println("sample method for Build creation job..");
 	}
 }
 
